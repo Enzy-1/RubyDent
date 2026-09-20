@@ -185,6 +185,9 @@ a { color: inherit; text-decoration: none; }
 .site-footer img { width: 150px; }
 .site-footer p, .site-footer > span { font-size: 11px; color: #aaa69e; margin: 0; }
 .site-footer > span { text-align: right; }
+.footer-credit { display: inline-block; margin-top: 7px; color: #aaa69e; font-size: 10px; }
+.footer-credit a { color: var(--gold-light); transition: color .2s ease; }
+.footer-credit a:hover { color: #fff; }
 .social-links { display: flex; gap: 18px; font-size: 11px; color: var(--gold-light); }
 .social-links a { display: inline-flex; align-items: center; gap: 7px; transition: color .2s ease, transform .2s ease; }
 .social-links a:hover { transform: translateY(-2px); }
